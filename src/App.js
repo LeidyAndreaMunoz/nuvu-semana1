@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/global.css'
+import { Carousel } from './Carousel/Carousel';
+import { Footer } from './Footer/Footer';
+import { GoalGrid } from './GoalGrid/GoalGrid';
+import { Header } from "./Header/Header";
+import { MainCard } from "./Main-card/MainCard";
+import { MainTable } from './MainTable/MainTable';
+import { Portfolio } from './Portfolio/Portfolio';
+import { Recomendations } from './Recomendations/Recomendations';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <main>
+      <MainCard/>
+      <MainTable/>
+      <GoalGrid/>
+      <Portfolio/>
+      <Carousel/>
+      <Recomendations/>
+      <Footer/>
+      </main>
     </div>
   );
 }

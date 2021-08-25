@@ -1,0 +1,70 @@
+.portfolioContainer {
+    width: 80%;
+    margin: 20px;
+}
+.titlePortfolioContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #817699;
+}
+#badgeTitle {
+    background-color: #E4FFEE;
+    color: #41CF69;
+    border: 1pt solid #41CF69;
+    border-radius: 20px;
+}
+#badgePortfolio{
+    background-color: #41CF69;
+    border-radius: 20px;
+}
+.cardPortfolio {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.Skandia {
+    margin-left: 20px;
+}
+.Skandia .about {
+    font-size: 12px;
+    margin: 0;
+    color: #58506B;
+}
+.Skandia .price {
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0;
+    color: #58506B;
+}
+.Skandia .typeTitle {
+    font-weight: 600;
+    font-size: 10px;
+    color: #41CF69;
+    margin: 0;
+}
+.Skandia .type {
+    font-size: 10px;
+    margin: 0;
+    color: #58506B;
+}
+.textPortfolio {
+    width: 80%;
+    text-align: center;
+    font-size: 10px;
+    color: #58506B;
+}
+.controlers {
+    display: flex;
+    justify-content: space-between;
+}

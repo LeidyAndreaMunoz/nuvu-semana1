@@ -1,0 +1,8 @@
+#containerHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    color: #58506B;
+    font-size: 18px;
+    font-weight: 600;
+}

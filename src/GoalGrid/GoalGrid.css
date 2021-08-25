@@ -1,0 +1,45 @@
+.goalGridContainer{
+    width: 80%;
+    margin: 20px;
+}
+.titleGridContainer{
+    display: flex;
+    justify-content: space-between;
+    color: #817699;
+}
+#goalGrid {
+    gap: 10px;
+}
+#goalGrid .col {
+    background-color: white;
+    border-radius: 20px;
+    padding: 4%;
+}
+#goalGrid .col .titleGoalContainer p {
+    margin: 5% auto;
+    color: #817699;
+}
+.goalProgress {
+    margin-top: 25px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.progress {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color: transparent;
+}
+.progress h6 {
+    font-weight: 600;
+    font-size: 12px;
+    color: #54D1ED;
+}
+.progress p {
+    font-size: 10px;
+    color: #817699;
+}

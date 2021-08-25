@@ -1,0 +1,31 @@
+
+.footer {
+    position: fixed; 
+    bottom: 0;  
+    top: auto; 
+    background-color: white; 
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.footer .nav .nav-item img {
+    width: 100%;
+    margin: 0 3%; 
+}
+
+#agg-footer-icon img {
+    margin-top: -40px;
+    width: 100%;
+}
+#agg-footer-icon a{
+    margin-top: 12px;
+}

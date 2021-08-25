@@ -1,0 +1,13 @@
+.mediaContainer {
+    width: 80%;
+    font-weight: 600;
+    font-size: 18px;
+    color: #58506B;
+}
+.mainImg {
+    width:100%;
+}
+.counterContainer .counterImg{
+    margin-top: -50px;
+    margin-left: 30px;
+}
